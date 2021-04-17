@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <body>
+            <script>
+                let ranNum=Math.random()*(100-0)+0;
+            
+                console.log(ranNum);
+                var person = prompt("Please enter your name", "Enter Name");
+
+if (person != null) {
+    ranNum=prompt("Hello " + person + ", please enter a number between 0 and 100", 0);
+}
+    ranNum=parseInt(ranNum);
+    console.log(ranNum);
+                switch(true){
+                    case ((ranNum==0)||(ranNum==100)):
+                        console.log("The border value");
+                        break;
+                    case (ranNum<50):
+                        console.log("the value is low");
+                        break;
+                    case (ranNum>=50):
+                        console.log("the value is high");
+                        break;
+                    default:
+                        console.log("the value is not between 0 and 100");
+      
+                }
+            
+            </script>
+        </body>
+    </head>

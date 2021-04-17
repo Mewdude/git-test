@@ -1,50 +1,55 @@
 body {
-    font-family: "Open Sans", sans-serif;
-}
-h1,h2,h3{
-font-family: "Lobster", cursive;
-}
+  font-family: "Open Sans", sans-serif; }
 
-h2{
-    color:#3046C5 ;
-}
+h1, h2, h3 {
+  font-family: "Lobster", cursive; }
 
-header h2{
-    color: #cec8ff;
-}
+h2 {
+  color: #3046C5; }
 
-.site-footer{
-    background-image: linear-gradient(#cec8ff, white);
-    padding: 20px 0;
-}
+header h2 {
+  color: #CEC8FF; }
 
-.jumbotron{
-    margin: 0;
-    padding: 30px;
-    background-image: linear-gradient(to right, #5637DD,#3046C5, #60106B);
-    color: white;
-}
+.site-footer {
+  background-image: linear-gradient(#CEC8FF, white);
+  padding: 20px 0; }
 
-.row-content{
-    padding: 50px 0;
-    border-bottom: 1px ridge;
-    min-height: 200px;
-}
+.jumbotron {
+  margin: 0;
+  padding: 30px;
+  background-image: linear-gradient(to right, #5637dd, #3046C5, #60106b);
+  color: white; }
 
-.navbar{
-    background-color: #901CAD;
-}
+.row-content {
+  padding: 50px 0;
+  border-bottom: 1px ridge;
+  min-height: 200px; }
 
-.tab{
-    border: 1px solid #DDD;
-    border-top: none;
-    padding: 10px;
-}
+.navbar {
+  background-color: #901CAD; }
 
-.carousel-caption{
-    background-color: rgba(0, 0, 0, 0.5);
-}
+.tab {
+  border: 1px solid #DDD;
+  border-top: none;
+  padding: 10px; }
 
-.carousel{
-    border: solid #5637DD;
-}
+.carousel-caption {
+  background-color: rgba(0, 0, 0, 0.5); }
+
+.carousel {
+  border: solid #5637dd; }
+
+#carouselButton {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  z-index: 100;
+  /* z-index controls the forward/back of the buttons. This makes sure these buttons are on top. */ }
+
+#reserveModal .modal-header {
+  background-color: #17A2B8;
+  color: white; }
+
+#loginModal .modal-header {
+  background-color: #901CAD;
+  color: white; }
